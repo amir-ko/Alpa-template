@@ -1,0 +1,1359 @@
+.head-top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.head-top > figure {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border-bottom: 1px solid rgb(136, 136, 136);
+}
+.head-top nav {
+  width: 70%;
+  height: 90px;
+  position: relative;
+  border-bottom: 1px solid rgb(136, 136, 136);
+}
+.head-top nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 110px;
+  align-items: center;
+}
+.head-top nav > ul > li {
+  height: 89px;
+  width: 100%;
+}
+.head-top nav > ul > li > a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 35px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li > a:hover {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+.head-top nav > ul > li:hover .mega {
+  display: block;
+}
+.head-top nav > ul > li .mega {
+  height: 450px;
+  background-color: aliceblue;
+  width: 25%;
+  margin-left: 25px;
+  position: absolute;
+  display: none;
+}
+.head-top nav > ul > li .mega > li {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid gray;
+  position: relative;
+  padding: 10px;
+}
+.head-top nav > ul > li .mega > li > a {
+  display: flex;
+  justify-content: start;
+  text-transform: capitalize;
+  color: black;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+}
+.head-top nav > ul > li .mega > li > a:hover {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+.head-top nav > ul > li:hover .pages, .head-top nav > ul > li:hover .feat, .head-top nav > ul > li:hover .bell, .head-top nav > ul > li:hover .shop {
+  display: block;
+}
+.head-top nav > ul > li:hover .port {
+  margin-left: -50%;
+}
+.head-top nav > ul > li:hover .short {
+  margin-left: -60%;
+}
+.head-top nav > ul > li .pages {
+  background-color: white;
+  height: 315px;
+  font-size: 17px;
+  width: 25%;
+  position: absolute;
+  display: none;
+  margin-left: 30px;
+  margin-top: -1px;
+}
+.head-top nav > ul > li .pages > li {
+  height: 45px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.head-top nav > ul > li .pages > li > a {
+  display: inline;
+  justify-content: stretch;
+  width: 100%;
+  text-transform: capitalize;
+  color: black;
+  margin: 20px;
+  padding-top: 10px;
+  height: 45px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav > ul > li .pages > li > a:hover {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+.head-top nav > ul > li .pages > li i {
+  font-size: 14px;
+  margin-right: 35px;
+  transition: 0.4s;
+}
+.head-top nav > ul > li .pages > li:hover i {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+.head-top nav > ul > li .pages > li:hover .me, .head-top nav > ul > li .pages > li:hover .service, .head-top nav > ul > li .pages > li:hover .team, .head-top nav > ul > li .pages > li:hover .faq, .head-top nav > ul > li .pages > li:hover .contact, .head-top nav > ul > li .pages > li:hover .other, .head-top nav > ul > li .pages > li:hover .error {
+  width: 80%;
+}
+.head-top nav > ul > li .pages .me {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.head-top nav > ul > li .pages .me > li {
+  height: 45px;
+  width: 280px;
+}
+.head-top nav > ul > li .pages .me > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .me > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .service {
+  position: absolute;
+  top: 45px;
+  left: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.head-top nav > ul > li .pages .service > li {
+  height: 45px;
+  width: 350px;
+}
+.head-top nav > ul > li .pages .service > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .service > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .team {
+  position: absolute;
+  top: 90px;
+  left: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.head-top nav > ul > li .pages .team > li {
+  height: 45px;
+  width: 350px;
+}
+.head-top nav > ul > li .pages .team > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .team > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .faq {
+  position: absolute;
+  top: 135px;
+  left: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.head-top nav > ul > li .pages .faq > li {
+  height: 45px;
+  width: 350px;
+}
+.head-top nav > ul > li .pages .faq > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .faq > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .contact {
+  position: absolute;
+  top: 180px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul > li .pages .contact > li {
+  height: 45px;
+  width: 350px;
+}
+.head-top nav > ul > li .pages .contact > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .contact > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .other {
+  position: absolute;
+  top: 225px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul > li .pages .other > li {
+  height: 45px;
+  width: 450px;
+}
+.head-top nav > ul > li .pages .other > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .other > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul > li .pages .error {
+  position: absolute;
+  top: 270px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul > li .pages .error > li {
+  height: 45px;
+  width: 450px;
+}
+.head-top nav > ul > li .pages .error > li > a {
+  color: black;
+  display: flex;
+  height: 45px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul > li .pages .error > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul .feat {
+  background-color: white;
+  height: 320px;
+  font-size: 17px;
+  width: 21%;
+  position: absolute;
+  display: none;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+.head-top nav > ul .feat > li {
+  height: 40px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.head-top nav > ul .feat > li i {
+  font-size: 14px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+.head-top nav > ul .feat > li:hover {
+  color: #04ce47;
+}
+.head-top nav > ul .feat > li > a {
+  display: inline;
+  justify-content: stretch;
+  width: 100%;
+  text-transform: capitalize;
+  color: black;
+  margin: 20px;
+  padding-top: 10px;
+  height: 45px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav > ul .feat > li > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav > ul .feat > li:hover .head, .head-top nav > ul .feat > li:hover .trans, .head-top nav > ul .feat > li:hover .style, .head-top nav > ul .feat > li:hover .footer, .head-top nav > ul .feat > li:hover .videos {
+  width: 100%;
+}
+.head-top nav > ul .head {
+  position: absolute;
+  top: 0px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul .head > li {
+  height: 40px;
+  width: 280px;
+}
+.head-top nav > ul .head > li > a {
+  color: black;
+  display: flex;
+  height: 40px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul .head > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul .trans {
+  position: absolute;
+  top: 40px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul .trans > li {
+  height: 40px;
+  width: 280px;
+}
+.head-top nav > ul .trans > li > a {
+  color: black;
+  display: flex;
+  height: 40px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul .trans > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul .style {
+  position: absolute;
+  top: 80px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul .style > li {
+  height: 40px;
+  width: 280px;
+}
+.head-top nav > ul .style > li > a {
+  color: black;
+  display: flex;
+  height: 40px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul .style > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul .footer {
+  position: absolute;
+  top: 120px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul .footer > li {
+  height: 40px;
+  width: 280px;
+}
+.head-top nav > ul .footer > li > a {
+  color: black;
+  display: flex;
+  height: 40px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul .footer > li > a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav > ul .videos {
+  position: absolute;
+  top: 160px;
+  width: 0;
+  left: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.head-top nav > ul .videos li {
+  height: 40px;
+  width: 280px;
+}
+.head-top nav > ul .videos li a {
+  color: black;
+  display: flex;
+  height: 40px;
+  padding-left: 25px;
+  justify-content: start;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  transition: 0.4s ease-in-out;
+}
+.head-top nav > ul .videos li a:hover {
+  color: #04ce47;
+  transform: translate(-10px);
+}
+.head-top nav .port {
+  background-color: white;
+  width: 100%;
+  height: 330px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90%;
+  transition: 1s ease-in-out;
+}
+.head-top nav .port > li {
+  width: 100%;
+}
+.head-top nav .port > li > .colu {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .port > li > .colu > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li > .colu > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .port > li > .colu > li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li > .colu > li > i {
+  font-size: 15px;
+}
+.head-top nav .port > li > .colu > li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .port > li > .colu > li:hover a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .port > li .st {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .port > li .st > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .st > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .port > li .st li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .st li > i {
+  font-size: 15px;
+}
+.head-top nav .port > li .st li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .port > li .st li:hover a {
+  transform: translate(15px);
+  color: #04ce47;
+}
+.head-top nav .port > li .box {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .port > li .box > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .box > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .port > li .box li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .box li > i {
+  font-size: 15px;
+}
+.head-top nav .port > li .box li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .port > li .box li:hover a {
+  transform: translate(15px);
+  color: #04ce47;
+}
+.head-top nav .port > li .carousel {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .port > li .carousel > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .carousel > a:hover {
+  transform: translate(15px);
+  padding-left: 15px;
+  color: #04ce47;
+}
+.head-top nav .port > li .carousel li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .port > li .carousel li > i {
+  font-size: 15px;
+}
+.head-top nav .port > li .carousel li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .port > li .carousel li:hover a {
+  transform: translate(15px);
+  color: #04ce47;
+}
+.head-top nav .short {
+  background-color: white;
+  width: 100%;
+  height: 470px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90%;
+  transition: 2.5s ease-in-out;
+}
+.head-top nav .short > li {
+  width: 100%;
+}
+.head-top nav .short > li > .alert {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .short > li > .alert > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li > .alert > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .short > li > .alert li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li > .alert li > i {
+  font-size: 15px;
+}
+.head-top nav .short > li > .alert li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li > .alert li:hover > a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .data {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .short > li .data > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .data > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .short > li .data li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .data li i {
+  font-size: 15px;
+}
+.head-top nav .short > li .data li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .data li:hover a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .pie {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .short > li .pie > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .pie > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .short > li .pie li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .pie li i {
+  font-size: 15px;
+}
+.head-top nav .short > li .pie li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .pie li:hover a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .step {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .short > li .step > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .step > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .short > li .step li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .step li i {
+  font-size: 15px;
+}
+.head-top nav .short > li .step li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .step li:hover a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .tooltip {
+  width: 100%;
+  height: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.head-top nav .short > li .tooltip > a {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .tooltip > a:hover {
+  color: #04ce47;
+  transform: translate(15px);
+  padding-left: 15px;
+}
+.head-top nav .short > li .tooltip li {
+  padding-top: 15px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.head-top nav .short > li .tooltip li i {
+  font-size: 15px;
+}
+.head-top nav .short > li .tooltip li:hover {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .short > li .tooltip li:hover a {
+  color: #04ce47;
+  transform: translate(15px);
+}
+.head-top nav .bell {
+  height: 315px;
+  background-color: aliceblue;
+  width: 20%;
+  margin-left: 25px;
+  position: absolute;
+  display: none;
+}
+.head-top nav .bell > li {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid gray;
+  position: relative;
+  padding: 10px;
+}
+.head-top nav .bell > li > a {
+  display: flex;
+  justify-content: start;
+  text-transform: capitalize;
+  color: black;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+}
+.head-top nav .bell > li > a:hover {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+.head-top nav .shop {
+  height: 225px;
+  background-color: aliceblue;
+  width: 20%;
+  margin-left: 25px;
+  position: absolute;
+  display: none;
+}
+.head-top nav .shop > li {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid gray;
+  position: relative;
+  padding: 10px;
+}
+.head-top nav .shop > li > a {
+  display: flex;
+  justify-content: start;
+  text-transform: capitalize;
+  color: black;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+}
+.head-top nav .shop > li > a:hover {
+  color: #04ce47;
+  transform: translateX(10px);
+}
+
+.green {
+  background-image: url(../img/bim12.jpg);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+}
+.green > .sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.green > .sec > .res {
+  width: 300px;
+  height: 320px;
+  margin: 65px;
+  background-color: white;
+  box-shadow: 11px 7px 11px 11px rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease-in-out;
+}
+.green > .sec > .res > * {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.green > .sec > .res i {
+  font-size: 45px;
+  margin-right: 230px;
+  color: #04ce47;
+}
+.green > .sec > .res h4 {
+  font-size: 20px;
+  margin-right: 90px;
+}
+.green > .sec > .res p {
+  color: gray;
+  font-size: 15px;
+  padding: 20px;
+  margin-top: -30px;
+}
+.green > .sec > .res a i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.green > .sec > .res a div {
+  color: #04ce47;
+  transition: 0.4s ease-in-out;
+}
+.green > .sec > .res a div:hover {
+  color: rgb(26, 25, 25);
+}
+.green > .sec > .res:hover {
+  transform: translateY(-10px);
+}
+.green > .sec .orci {
+  width: 300px;
+  height: 340px;
+  margin: 65px;
+  background-color: #04ce47;
+  box-shadow: 11px 7px 11px 11px rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease-in-out;
+}
+.green > .sec .orci > * {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.green > .sec .orci i {
+  font-size: 45px;
+  margin-right: 220px;
+  color: white;
+}
+.green > .sec .orci h4 {
+  font-size: 20px;
+  margin-right: 130px;
+  color: white;
+}
+.green > .sec .orci p {
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  margin-top: -30px;
+}
+.green > .sec .orci a i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.green > .sec .orci a div {
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+.green > .sec .orci a div:hover {
+  color: rgb(26, 25, 25);
+}
+.green > .sec .orci:hover {
+  transform: translateY(-10px);
+}
+.green > .sec .serv {
+  width: 300px;
+  height: 340px;
+  margin: 65px;
+  background-color: white;
+  box-shadow: 11px 7px 11px 11px rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease-in-out;
+}
+.green > .sec .serv > * {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.green > .sec .serv i {
+  font-size: 45px;
+  margin-right: 230px;
+  color: #04ce47;
+}
+.green > .sec .serv h4 {
+  font-size: 20px;
+  margin-right: 90px;
+}
+.green > .sec .serv p {
+  color: gray;
+  font-size: 15px;
+  padding: 20px;
+  margin-top: -30px;
+}
+.green > .sec .serv a i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.green > .sec .serv a div {
+  color: #04ce47;
+  transition: 0.4s ease-in-out;
+}
+.green > .sec .serv a div:hover {
+  color: rgb(26, 25, 25);
+}
+.green > .sec .serv:hover {
+  transform: translateY(-10px);
+}
+
+.mac {
+  background-image: url(../img/1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+.mac > .app {
+  width: 50%;
+}
+.mac > .app > figure > img {
+  width: 800px;
+  margin-top: 100px;
+}
+.mac .off {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-left: 30px;
+}
+.mac .off > h5 {
+  color: #04ce47;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.mac .off h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.mac .off h4 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 20px;
+}
+.mac .off p {
+  color: white;
+  font-size: 14px;
+  margin: 0 0 10px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+.mac .off span {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.mac .off span > i {
+  color: #04ce47;
+  margin-right: 10px;
+  transition: 0.2s ease-in-out;
+}
+.mac .off span > i:hover {
+  transform: scale(5);
+}
+.mac .off button {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.mac .off button:hover {
+  background-color: #232323;
+  color: white;
+  transform: rotateX(360deg);
+}
+.mac .off button > i {
+  margin-right: 5px;
+}
+
+.mark {
+  width: 100%;
+  height: 400px;
+  background-color: #04ce47;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+.mark .coll, .mark .secure, .mark .beautiful, .mark .market {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #04B940;
+  overflow-y: hidden;
+}
+.mark .coll > h5,
+.mark .coll > p,
+.mark .coll > i, .mark .secure > h5,
+.mark .secure > p,
+.mark .secure > i, .mark .beautiful > h5,
+.mark .beautiful > p,
+.mark .beautiful > i, .mark .market > h5,
+.mark .market > p,
+.mark .market > i {
+  transition: all 0.4s linear;
+}
+.mark .coll > i,
+.mark .coll > h5, .mark .secure > i,
+.mark .secure > h5, .mark .beautiful > i,
+.mark .beautiful > h5, .mark .market > i,
+.mark .market > h5 {
+  transform: translateY(50px);
+}
+.mark .coll > i, .mark .secure > i, .mark .beautiful > i, .mark .market > i {
+  font-size: 60px;
+}
+.mark .coll > h5, .mark .secure > h5, .mark .beautiful > h5, .mark .market > h5 {
+  font-size: 20px;
+}
+.mark .coll > p, .mark .secure > p, .mark .beautiful > p, .mark .market > p {
+  transform: translateY(200px);
+  opacity: 0;
+}
+.mark .coll:hover > i,
+.mark .coll:hover > h5, .mark .secure:hover > i,
+.mark .secure:hover > h5, .mark .beautiful:hover > i,
+.mark .beautiful:hover > h5, .mark .market:hover > i,
+.mark .market:hover > h5 {
+  transform: translateY(-50px);
+}
+.mark .coll:hover > p, .mark .secure:hover > p, .mark .beautiful:hover > p, .mark .market:hover > p {
+  transform: translateY(-30px);
+  opacity: 1;
+}
+.mark .market, .mark .beautiful {
+  background-color: #04ce47;
+}
+
+.tools {
+  background-image: url(../img/bim6.jpg);
+  width: 100%;
+  height: 110vh;
+  background-position: center;
+}
+.tools > .box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.tools > .box > .justo, .tools > .box .suspen, .tools > .box .est {
+  width: 350px;
+  height: 350px;
+  background-color: #04ce47;
+  margin: 80px 20px;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s ease-in-out;
+}
+.tools > .box > .justo > figure > img, .tools > .box .suspen > figure > img, .tools > .box .est > figure > img {
+  width: 350px;
+  height: 350px;
+  transition: 0.4s ease-out;
+}
+.tools > .box > .justo h5, .tools > .box .suspen h5, .tools > .box .est h5 {
+  color: white;
+  font-size: 22px;
+  margin-top: 25px;
+  transition: 0.4s ease-in-out;
+}
+.tools > .box > .justo p, .tools > .box .suspen p, .tools > .box .est p {
+  color: white;
+  margin-top: 10px;
+  line-height: 1.5;
+  transition: 0.4s ease-in-out;
+}
+.tools > .box > .justo button, .tools > .box .suspen button, .tools > .box .est button {
+  width: 150px;
+  height: 50px;
+  background-color: #04ce47;
+  color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transform: translateX(-1500px);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.tools > .box > .justo button > i, .tools > .box .suspen button > i, .tools > .box .est button > i {
+  padding-left: 5px;
+}
+.tools > .box > .justo:hover h5, .tools > .box > .justo:hover p, .tools > .box .suspen:hover h5, .tools > .box .suspen:hover p, .tools > .box .est:hover h5, .tools > .box .est:hover p {
+  transform: translateY(-20px);
+}
+.tools > .box > .justo:hover img, .tools > .box .suspen:hover img, .tools > .box .est:hover img {
+  transform: translate(-24px, -16px);
+}
+.tools > .box > .justo:hover button, .tools > .box .suspen:hover button, .tools > .box .est:hover button {
+  transform: translateX(-10px);
+}
+
+.jq {
+  width: 100%;
+  height: 180px;
+  background-color: #04ce47;
+}
+.jq > marquee {
+  margin-top: 25px;
+}
+
+.foot {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+}
+.foot > div {
+  width: 300px;
+  height: 250px;
+  margin: 50px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.foot > div > .alp p {
+  color: white;
+  margin-top: 10px;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.foot > div .us a, .foot > div .quick a {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  color: grey;
+  transition: 0.2s ease-in-out;
+}
+.foot > div .us a:hover, .foot > div .quick a:hover {
+  color: white;
+}
+.foot > div .us h5, .foot > div .quick h5 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.foot > div .fax {
+  color: white;
+}
+.foot > div .fax > h4 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.foot > div .fax > h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.foot > div .fax > h5 > span {
+  color: grey;
+}
+.foot > div .fax > p {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.foot > div .fax > p > span {
+  color: gray;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.foot > div .fax > div {
+  margin-bottom: 5px;
+}
+.foot > div .fax > div > span {
+  font-size: 18px;
+  color: gray;
+}
+.foot > div .fax > h6 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.foot > div .fax > h6 > span {
+  color: gray;
+}
+.foot > div .fax > h3 {
+  margin-top: 25px;
+}
+.foot > div .fax > h3 > i {
+  padding-right: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.foot > div .fax > h3 > i:hover {
+  color: #04ce47;
+}
+
+.right {
+  width: 100%;
+  height: 80px;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+}
+.right > span {
+  color: #04B940;
+  padding-left: 5px;
+  padding-right: 5px;
+}/*# sourceMappingURL=master.css.map */
